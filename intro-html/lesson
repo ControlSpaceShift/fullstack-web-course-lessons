@@ -1,0 +1,5 @@
+HTML stands for the hypetext markup language
+it used for developing the skeleton structure for the website
+It encompasses of tags/element which most have an opening and closing tag
+sample tags are: <html></html> <header></header> <h1></h1> <li></li> <dir></dir> <div></div> <h2></h2> <h3></h3> <h4></h4> <h6></h6> <video src=""></video>
+<iframe src="" frameborder="0"></iframe> <script></script>
