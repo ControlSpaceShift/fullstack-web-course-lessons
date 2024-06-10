@@ -3,91 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="">
-    <title>XYZ - Cloud Hosting Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="index.css">
+    <title>XYZ | Cloud Hosting For Everyone</title>
 </head>
-<style>
-    *{
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-    }
-    body{
-        font-family: 'Lato', sans-serif;
-        color: #333;
-        line-height: 1.6;
-    }
-    ul{
-        list-style: none;
-    }
-    a{
-        text-decoration: none;
-        color: #333;
-    }
-    h1,
-    h2{
-        font-weight: 400;
-        color: #333;
-        list-style: 1.2;
-        margin: 10px 0;
-    }
-    p{
-        margin: 10px 0;
-    }
-    .navbar{
-        background-color: #047aed;
-        color: #fff;
-        padding: 10px 0;
-        height: 70px;
-    }
-    .navbar ul{
-        display: flex;
-    }
-    .navbar a{
-        color: red;
-        padding: 10px;
-        margin: 0 5px;
-    }
-    .navbar ul a:hover{
-        border-bottom: 2px solid #fff;
-    }
-    .navbar .flex{
-        justify-content: space-between;
-    }
-    .container{
-        max-width: 1100px;
-        margin: auto;
-        padding: 0 20px;
-    }
-</style>
 <body>
-    <!-- Start Navbar-->
+    <!-- Navbar -->
     <div class="navbar">
         <div class="container flex">
-            <h1 class="logo">XYZ - Cloud</h1>
+             <h1 class="logo"><a href="index.html">XYZ.</a></h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Docs</a></li>
-                </ul>              
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
             </nav>
         </div>
     </div>
+    
+    <!-- Showcase -->
     <section class="showcase">
         <div class="container grid">
             <div class="showcase-text">
-                <h1>Cloud Computing Services</h1>
-                <p>Easiest way to deploy your website to the cloud</p>
-                <a class="btn btn-outline" href="#">Learn More</a>
+                <h1>Easier Deployment</h1>
+                <p>Deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals. Fill out the form to try a demo of our platform</p>
+                <a href="features.html" class="btn btn-outline">Read More</a>
             </div>
+
             <div class="showcase-form card">
-                <h1>Request a Demo</h1>
-                <form id="form_id">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Phone Number">
-                    <button>Send</button>
+                <h2>Request a Demo</h2>
+                <p>Request a demo and we'll get back to you</p>
+                 <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
                 </form>
             </div>
         </div>
